@@ -53,7 +53,7 @@ class IpadViewController: UITableViewController, UISplitViewControllerDelegate {
                button.addTarget(self, action: #selector(self.crashButtonTapped(_:)), for: .touchUpInside)
                view.addSubview(button)
 
-           
+           print("Changes")
     }
 
     @IBAction func crashButtonTapped(_ sender: AnyObject) {
