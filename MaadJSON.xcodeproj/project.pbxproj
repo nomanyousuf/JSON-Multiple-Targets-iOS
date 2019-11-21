@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FD7F25F5FB92517D09959BF /* Pods_MaadJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C22CDC9AFE8B42D7DB0135F /* Pods_MaadJSON.framework */; };
+		BB5F24462384D0A40077D9CE /* JsonObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC3CB823835FC400641A1E /* JsonObjects.swift */; };
+		BB5F24472384D0A40077D9CE /* JsonResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC3CBA2383602500641A1E /* JsonResponse.swift */; };
+		BB5F24482384D0A40077D9CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC3CA623835F3100641A1E /* ViewController.swift */; };
+		BB5F24492384D0A40077D9CE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC3CBC2383771D00641A1E /* DetailViewController.swift */; };
+		BB5F244A2384D0A40077D9CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC3CA223835F3100641A1E /* AppDelegate.swift */; };
+		BB5F244B2384D0A40077D9CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC3CA423835F3100641A1E /* SceneDelegate.swift */; };
+		BB5F244E2384D0A40077D9CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBDC3CAD23835F3200641A1E /* LaunchScreen.storyboard */; };
+		BB5F244F2384D0A40077D9CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBDC3CAB23835F3200641A1E /* Assets.xcassets */; };
+		BB5F24502384D0A40077D9CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBDC3CA823835F3100641A1E /* Main.storyboard */; };
+		BB5F24592384D2C40077D9CE /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5F24582384D2C40077D9CE /* CustomTableViewCell.swift */; };
+		BB5F245A2384D2C40077D9CE /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5F24582384D2C40077D9CE /* CustomTableViewCell.swift */; };
+		BB74D2492385E80900291868 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB74D2482385E80900291868 /* GoogleService-Info.plist */; };
+		BB74D24A2385E80900291868 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB74D2482385E80900291868 /* GoogleService-Info.plist */; };
+		BBDC3CA323835F3100641A1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC3CA223835F3100641A1E /* AppDelegate.swift */; };
+		BBDC3CA523835F3100641A1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC3CA423835F3100641A1E /* SceneDelegate.swift */; };
+		BBDC3CA723835F3100641A1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC3CA623835F3100641A1E /* ViewController.swift */; };
+		BBDC3CAA23835F3100641A1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBDC3CA823835F3100641A1E /* Main.storyboard */; };
+		BBDC3CAC23835F3200641A1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBDC3CAB23835F3200641A1E /* Assets.xcassets */; };
+		BBDC3CAF23835F3200641A1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBDC3CAD23835F3200641A1E /* LaunchScreen.storyboard */; };
+		BBDC3CB923835FC400641A1E /* JsonObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC3CB823835FC400641A1E /* JsonObjects.swift */; };
+		BBDC3CBB2383602500641A1E /* JsonResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC3CBA2383602500641A1E /* JsonResponse.swift */; };
+		BBDC3CBD2383771D00641A1E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC3CBC2383771D00641A1E /* DetailViewController.swift */; };
+		BBF36B0D2385A8D400170E82 /* IpadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF36B0C2385A8D400170E82 /* IpadViewController.swift */; };
+		BBF36B0E2385A8D400170E82 /* IpadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF36B0C2385A8D400170E82 /* IpadViewController.swift */; };
+		D0CEBCD344011954EB1178D4 /* Pods_MaadJSON_ipad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC13E9565C0458031A18A02 /* Pods_MaadJSON_ipad.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02203EC6363E6192C03689A3 /* Pods-MaadJSON-ipad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaadJSON-ipad.debug.xcconfig"; path = "Target Support Files/Pods-MaadJSON-ipad/Pods-MaadJSON-ipad.debug.xcconfig"; sourceTree = "<group>"; };
+		04A8082BF55BD1BEE20E529B /* Pods-MaadJSON-ipad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaadJSON-ipad.release.xcconfig"; path = "Target Support Files/Pods-MaadJSON-ipad/Pods-MaadJSON-ipad.release.xcconfig"; sourceTree = "<group>"; };
+		5C22CDC9AFE8B42D7DB0135F /* Pods_MaadJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaadJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93BB0B9EC9B7A8330EF27482 /* Pods-MaadJSON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaadJSON.release.xcconfig"; path = "Target Support Files/Pods-MaadJSON/Pods-MaadJSON.release.xcconfig"; sourceTree = "<group>"; };
+		BB5F24542384D0A40077D9CE /* MaadJSON-ipad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MaadJSON-ipad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5F24552384D0A40077D9CE /* MaadJSON-ipad.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MaadJSON-ipad.plist"; path = "/Users/nomanyousuf/Desktop/iOS/Complete Json Proj/MaadJSON/MaadJSON-ipad.plist"; sourceTree = "<absolute>"; };
+		BB5F24582384D2C40077D9CE /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		BB74D2482385E80900291868 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BBDC3C9F23835F3100641A1E /* MaadJSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaadJSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBDC3CA223835F3100641A1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBDC3CA423835F3100641A1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BBDC3CA623835F3100641A1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBDC3CA923835F3100641A1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBDC3CAB23835F3200641A1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBDC3CAE23835F3200641A1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBDC3CB023835F3200641A1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBDC3CB823835FC400641A1E /* JsonObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonObjects.swift; sourceTree = "<group>"; };
+		BBDC3CBA2383602500641A1E /* JsonResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonResponse.swift; sourceTree = "<group>"; };
+		BBDC3CBC2383771D00641A1E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BBF36B0C2385A8D400170E82 /* IpadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpadViewController.swift; sourceTree = "<group>"; };
+		C4EAA56CE65088376EFC075A /* Pods-MaadJSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaadJSON.debug.xcconfig"; path = "Target Support Files/Pods-MaadJSON/Pods-MaadJSON.debug.xcconfig"; sourceTree = "<group>"; };
+		DDC13E9565C0458031A18A02 /* Pods_MaadJSON_ipad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaadJSON_ipad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB5F244C2384D0A40077D9CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CEBCD344011954EB1178D4 /* Pods_MaadJSON_ipad.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDC3C9C23835F3100641A1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD7F25F5FB92517D09959BF /* Pods_MaadJSON.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		240B7D0851A9FDFB2493A794 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C22CDC9AFE8B42D7DB0135F /* Pods_MaadJSON.framework */,
+				DDC13E9565C0458031A18A02 /* Pods_MaadJSON_ipad.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBDC3C9623835F3100641A1E = {
+			isa = PBXGroup;
+			children = (
+				BB5F24582384D2C40077D9CE /* CustomTableViewCell.swift */,
+				BBDC3CA123835F3100641A1E /* MaadJSON */,
+				BBDC3CA023835F3100641A1E /* Products */,
+				BB5F24552384D0A40077D9CE /* MaadJSON-ipad.plist */,
+				C907A09D7D46435B876E9080 /* Pods */,
+				240B7D0851A9FDFB2493A794 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BBDC3CA023835F3100641A1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBDC3C9F23835F3100641A1E /* MaadJSON.app */,
+				BB5F24542384D0A40077D9CE /* MaadJSON-ipad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBDC3CA123835F3100641A1E /* MaadJSON */ = {
+			isa = PBXGroup;
+			children = (
+				BBDC3CB823835FC400641A1E /* JsonObjects.swift */,
+				BBDC3CBA2383602500641A1E /* JsonResponse.swift */,
+				BBDC3CA223835F3100641A1E /* AppDelegate.swift */,
+				BBDC3CA423835F3100641A1E /* SceneDelegate.swift */,
+				BBDC3CA623835F3100641A1E /* ViewController.swift */,
+				BBDC3CA823835F3100641A1E /* Main.storyboard */,
+				BBF36B0C2385A8D400170E82 /* IpadViewController.swift */,
+				BBDC3CBC2383771D00641A1E /* DetailViewController.swift */,
+				BB74D2482385E80900291868 /* GoogleService-Info.plist */,
+				BBDC3CAB23835F3200641A1E /* Assets.xcassets */,
+				BBDC3CAD23835F3200641A1E /* LaunchScreen.storyboard */,
+				BBDC3CB023835F3200641A1E /* Info.plist */,
+			);
+			path = MaadJSON;
+			sourceTree = "<group>";
+		};
+		C907A09D7D46435B876E9080 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4EAA56CE65088376EFC075A /* Pods-MaadJSON.debug.xcconfig */,
+				93BB0B9EC9B7A8330EF27482 /* Pods-MaadJSON.release.xcconfig */,
+				02203EC6363E6192C03689A3 /* Pods-MaadJSON-ipad.debug.xcconfig */,
+				04A8082BF55BD1BEE20E529B /* Pods-MaadJSON-ipad.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB5F24442384D0A40077D9CE /* MaadJSON-ipad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5F24512384D0A40077D9CE /* Build configuration list for PBXNativeTarget "MaadJSON-ipad" */;
+			buildPhases = (
+				80DC3AF7FAC65BCDBFC702FC /* [CP] Check Pods Manifest.lock */,
+				BB5F24452384D0A40077D9CE /* Sources */,
+				BB5F244C2384D0A40077D9CE /* Frameworks */,
+				BB5F244D2384D0A40077D9CE /* Resources */,
+				CB1341327A488C19BABCE81C /* [CP] Embed Pods Frameworks */,
+				BB3AD3EA238618DD00AA4C2D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MaadJSON-ipad";
+			productName = MaadJSON;
+			productReference = BB5F24542384D0A40077D9CE /* MaadJSON-ipad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBDC3C9E23835F3100641A1E /* MaadJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBDC3CB323835F3200641A1E /* Build configuration list for PBXNativeTarget "MaadJSON" */;
+			buildPhases = (
+				C47F5FDFFF01DAD5D38E5BBE /* [CP] Check Pods Manifest.lock */,
+				BBDC3C9B23835F3100641A1E /* Sources */,
+				BBDC3C9C23835F3100641A1E /* Frameworks */,
+				BBDC3C9D23835F3100641A1E /* Resources */,
+				7AA17D293FCE80DC276EA882 /* [CP] Embed Pods Frameworks */,
+				BB3AD3E92386151F00AA4C2D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaadJSON;
+			productName = MaadJSON;
+			productReference = BBDC3C9F23835F3100641A1E /* MaadJSON.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBDC3C9723835F3100641A1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = colors;
+				TargetAttributes = {
+					BBDC3C9E23835F3100641A1E = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = BBDC3C9A23835F3100641A1E /* Build configuration list for PBXProject "MaadJSON" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBDC3C9623835F3100641A1E;
+			productRefGroup = BBDC3CA023835F3100641A1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBDC3C9E23835F3100641A1E /* MaadJSON */,
+				BB5F24442384D0A40077D9CE /* MaadJSON-ipad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB5F244D2384D0A40077D9CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5F244E2384D0A40077D9CE /* LaunchScreen.storyboard in Resources */,
+				BB74D24A2385E80900291868 /* GoogleService-Info.plist in Resources */,
+				BB5F244F2384D0A40077D9CE /* Assets.xcassets in Resources */,
+				BB5F24502384D0A40077D9CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDC3C9D23835F3100641A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDC3CAF23835F3200641A1E /* LaunchScreen.storyboard in Resources */,
+				BB74D2492385E80900291868 /* GoogleService-Info.plist in Resources */,
+				BBDC3CAC23835F3200641A1E /* Assets.xcassets in Resources */,
+				BBDC3CAA23835F3100641A1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7AA17D293FCE80DC276EA882 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MaadJSON/Pods-MaadJSON-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MaadJSON/Pods-MaadJSON-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MaadJSON/Pods-MaadJSON-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80DC3AF7FAC65BCDBFC702FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaadJSON-ipad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB3AD3E92386151F00AA4C2D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\"\n";
+		};
+		BB3AD3EA238618DD00AA4C2D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\"\n";
+		};
+		C47F5FDFFF01DAD5D38E5BBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaadJSON-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB1341327A488C19BABCE81C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MaadJSON-ipad/Pods-MaadJSON-ipad-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MaadJSON-ipad/Pods-MaadJSON-ipad-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MaadJSON-ipad/Pods-MaadJSON-ipad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB5F24452384D0A40077D9CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF36B0E2385A8D400170E82 /* IpadViewController.swift in Sources */,
+				BB5F24462384D0A40077D9CE /* JsonObjects.swift in Sources */,
+				BB5F24472384D0A40077D9CE /* JsonResponse.swift in Sources */,
+				BB5F24482384D0A40077D9CE /* ViewController.swift in Sources */,
+				BB5F245A2384D2C40077D9CE /* CustomTableViewCell.swift in Sources */,
+				BB5F24492384D0A40077D9CE /* DetailViewController.swift in Sources */,
+				BB5F244A2384D0A40077D9CE /* AppDelegate.swift in Sources */,
+				BB5F244B2384D0A40077D9CE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDC3C9B23835F3100641A1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF36B0D2385A8D400170E82 /* IpadViewController.swift in Sources */,
+				BBDC3CB923835FC400641A1E /* JsonObjects.swift in Sources */,
+				BBDC3CBB2383602500641A1E /* JsonResponse.swift in Sources */,
+				BBDC3CA723835F3100641A1E /* ViewController.swift in Sources */,
+				BB5F24592384D2C40077D9CE /* CustomTableViewCell.swift in Sources */,
+				BBDC3CBD2383771D00641A1E /* DetailViewController.swift in Sources */,
+				BBDC3CA323835F3100641A1E /* AppDelegate.swift in Sources */,
+				BBDC3CA523835F3100641A1E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BBDC3CA823835F3100641A1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBDC3CA923835F3100641A1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBDC3CAD23835F3200641A1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBDC3CAE23835F3200641A1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB5F24522384D0A40077D9CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02203EC6363E6192C03689A3 /* Pods-MaadJSON-ipad.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P97P477CHC;
+				INFOPLIST_FILE = "MaadJSON-ipad.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "-D ipad";
+				PRODUCT_BUNDLE_IDENTIFIER = colors.MaadJSON;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		BB5F24532384D0A40077D9CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04A8082BF55BD1BEE20E529B /* Pods-MaadJSON-ipad.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P97P477CHC;
+				INFOPLIST_FILE = "MaadJSON-ipad.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "-D ipad";
+				PRODUCT_BUNDLE_IDENTIFIER = colors.MaadJSON;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		BBDC3CB123835F3200641A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBDC3CB223835F3200641A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBDC3CB423835F3200641A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4EAA56CE65088376EFC075A /* Pods-MaadJSON.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P97P477CHC;
+				INFOPLIST_FILE = MaadJSON/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = colors.MaadJSON;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BBDC3CB523835F3200641A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93BB0B9EC9B7A8330EF27482 /* Pods-MaadJSON.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P97P477CHC;
+				INFOPLIST_FILE = MaadJSON/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = colors.MaadJSON;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB5F24512384D0A40077D9CE /* Build configuration list for PBXNativeTarget "MaadJSON-ipad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5F24522384D0A40077D9CE /* Debug */,
+				BB5F24532384D0A40077D9CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBDC3C9A23835F3100641A1E /* Build configuration list for PBXProject "MaadJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBDC3CB123835F3200641A1E /* Debug */,
+				BBDC3CB223835F3200641A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBDC3CB323835F3200641A1E /* Build configuration list for PBXNativeTarget "MaadJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBDC3CB423835F3200641A1E /* Debug */,
+				BBDC3CB523835F3200641A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBDC3C9723835F3100641A1E /* Project object */;
+}
